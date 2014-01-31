@@ -1,0 +1,3 @@
+recursive-include chunks/locale *
+recursive-include chunks/static *
+recursive-include chunks/templates *

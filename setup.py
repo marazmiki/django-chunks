@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 
 setup(name='django-chunks',
-      version='0.3',
+      version='0.4',
       description='Keyed blocks of content for use in your Django templates',
       author='Clint Ecker',
       author_email='me@clintecker.com',

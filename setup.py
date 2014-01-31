@@ -1,4 +1,8 @@
-from setuptools import setup
+#!/usr/bin/env python
+# coding: utf-8
+
+from setuptools import setup, find_packages
+
 
 setup(name='django-chunks',
       version='0.3',
@@ -6,7 +10,8 @@ setup(name='django-chunks',
       author='Clint Ecker',
       author_email='me@clintecker.com',
       url='http://code.google.com/p/django-chunks/',
-      packages=['chunks', 'chunks.templatetags'],
+      packages=find_packages(),
+      include_package_data=True,
       classifiers=['Development Status :: 4 - Beta',
                    'Environment :: Web Environment',
                    'Intended Audience :: Developers',
